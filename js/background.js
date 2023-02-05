@@ -1,7 +1,12 @@
 const images = [
-    "0.jpg",
-    "1.jpg",
-    "2.jpg"
+    "Barbell.jpeg",
+    "ComboRack.jpeg",
+    "Dumbell.jpeg",
+    "Plate10.jpeg",
+    "Plate15.jpeg",
+    "Plate20.jpeg",
+    "Plate25.jpeg",
+    "PowerRack.jpeg"
 ]
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];

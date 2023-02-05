@@ -1,24 +1,36 @@
 const quotes = [
     {
-        quote: "Life is like riding a bicycle. To keep your balance, you must keep moving.",
-        author: "Albert Einstein"
+        quote: "Physical fitness can neither be achieved by wishful thinking nor outright purchase.",
+        author: "Joseph Pilates"
     },
     {
-        quote: "Learn from yesterday, live for today, hope for tomorrow. The important thing is not to be stop questioning.",
-        author: "Albert Einstein"
+        quote: "When you hit failure, your workout has just begun.",
+        author: "Ronnie Coleman"
     },
     {
-        quote: "As I get older, I realize being wrong isn't a bad thing like they teach you in school. It is an opportunity to learn something.",
-        author: "Richard Feynmann"
+        quote: "There are two types of pains, one that hurts you and the other that changes you.",
+        author: "Jetti Woodruff"
     },
     {
-        quote: "I learned very early the difference between knowing the name of something and knowing something",
-        author: "Richard Feynmann"
-    },
-    {
-        quote: "What you think you become, what you feel you attract, what you imagine you create",
+        quote: "To keep the body in good health is a duty… otherwise, we shall not be able to keep our mind strong and clear.",
         author: "Buddha"
-    }
+    },
+    {
+        quote: "Some are born strong, and others are made strong.",
+        author: "J.R. Rim"
+    },
+    {
+        quote: "Well done is better than well said.",
+        author: "Benjamin Franklin"
+    },
+    {
+        quote: "If you think lifting weights is dangerous, try being weak. Being weak is dangerous.",
+        author: "Bret Contreras"
+    },
+    {
+        quote: "The first and greatest victory is to conquer self.",
+        author: "Plato"
+    },
 ];
 
 const quote = document.querySelector("#quote span:first-child");
