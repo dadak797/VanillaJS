@@ -1,3 +1,176 @@
 .hidden {
     display: none;
 }
+
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#bgImage {
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#time-account {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    height: 250px;
+}
+
+#clock {
+    margin: 20px 20px;
+    font-size: 60px;
+}
+
+.time-column:first-child {
+    width: 25%;
+}
+
+.time-column:nth-child(2) {
+    width: 57%;
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.time-column:last-child {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 20px;
+}
+
+#today {
+    font-size: 40px;
+}
+
+#weather {
+    font-size: 20px;
+}
+
+#login-form {
+    margin: 20px 20px;
+    opacity: 0.6;
+}
+
+#login-form input {
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+#login-form input:first-child {
+    width: 150px;
+}
+
+#login-form input:focus {
+    outline: none;
+}
+
+#login-form:focus-within {
+    opacity: 1.0;
+}
+
+#greeting {
+    margin: 20px;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+#quote div:first-child {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#quote div:last-child {
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#todo-form {
+    display: flex;
+    justify-content: center;
+}
+
+#todo-form img {
+    width: 80px;
+    height: 80px;
+}
+
+#todo-form button {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-form button:hover {
+    opacity: 1.0;
+}
+
+#todo-list button {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.6;
+}
+
+#todo-list button:hover {
+    opacity: 1.0;
+}
+
+#todo-form > div {
+    margin: 0px 20px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+#todo-form > div > div {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#workout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+#workout div {
+    margin: 20px;
+    font-size: 30px;
+}
+
+ul#todo-list {
+    padding: 0px;
+    font-size: 20px;
+}
+
+#todo-list span {
+    padding-right: 10px;
+}

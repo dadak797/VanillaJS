@@ -2,31 +2,73 @@
 <html lang="en">
 <head>
     <link href="css/style.css" rel="stylesheet" />
-    <title>Momentum App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&family=Raleway&display=swap" rel="stylesheet">
+    <title>Let's work out</title>
 </head>
 <body>
-    <h2 id="clock">00:00:00</h2>
-    <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <input type="submit" value="Log In" />
-    </form>
-    <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-        <span></span>
-        <span></span>
+    <div id="time-account">
+        <div class="time-column">
+            <h2 id="clock">00:00:00</h2>
+            <form class="hidden" id="login-form">
+                <input
+                  required
+                  maxlength="15"
+                  type="text"
+                  placeholder="ID"
+                />
+                <input type="submit" value="Log In" />
+              </form>
+              <h2 class="hidden" id="greeting"></h2>
+        </div>
+        <div class="time-column">
+            <div id="quote">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="time-column">
+            <h1 id="today">0000. 00. 00.</h1>
+            <div id="weather">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
     </div>
-    <div id="weather">
-        <span></span>
-        <span></span>
+    <form id="todo-form">
+        <!-- <input type="text" placeholder="Write a To Do and Press Enter" required /> -->
+        <div>
+            <button id="btn-squat"><img src="img/LowBarSquat.gif"></button>
+            <div>Squat</div>
+        </div>
+        <div>
+            <button id="btn-bpress"><img src="img/BenchPress.gif"></button>
+            <div>Bench Press</div>
+        </div>
+        <div>
+            <button id="btn-row"><img src="img/PendlayRow.gif"></button>
+            <div>Pendlay Row</div>
+        </div>
+        <div>
+            <button id="btn-opress"><img src="img/OverHeadPress.gif"></button>
+            <div>Overhead Press</div>
+        </div>
+        <div>
+            <button id="btn-deadlift"><img src="img/Deadlift.gif"></button>
+            <div>Deadlift</div>
+        </div>
+        <div>
+            <button id="btn-dips"><img src="img/Dips.gif"></button>
+            <div>Dips</div>
+        </div>
+        <div>
+            <button id="btn-pullup"><img src="img/PullUp.gif"></button>
+            <div>Pull Up</div>
+        </div>
+    </form>
+    <div id="workout">
+        <div>Today's Workout Plan</d>
+        <ul id="todo-list"></ul>
     </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
